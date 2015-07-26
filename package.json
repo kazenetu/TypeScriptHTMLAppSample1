@@ -1,0 +1,15 @@
+{
+	"name": "typeScriptSample",
+	"version": "1.0.0",
+	"description": "typeScriptSample",
+	"author": "kazenetu",
+	"url": "",
+	"license": "MIT License",
+	"keywords": "gulp",
+	"devDependencies":{
+		"gulp": "*",
+		"gulp-typescript": "*",
+		"browserify": "*",
+		"vinyl-source-stream": "*"
+	}
+}
