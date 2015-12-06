@@ -1,0 +1,5 @@
+/node_modules
+/*.suo
+/TypeScriptHTMLApp1/obj
+/TypeScriptHTMLApp1/bin
+/TypeScriptHTMLApp1/*.user

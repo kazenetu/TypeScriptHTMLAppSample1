@@ -15,4 +15,4 @@ var Greeter = (function () {
     };
     return Greeter;
 })();
-exports.Greeter = Greeter;
+exports.default = Greeter;

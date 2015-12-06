@@ -5,11 +5,7 @@ var source = require('vinyl-source-stream');
 
 gulp.task('typescript', function () {
     gulp.src(['./TypeScriptHTMLApp1/**/*.ts'])
-		.pipe(typescript({
-		    target: "ES5"
-            , sortOutput: true
-            , module: "commonjs"
-		})).js
+		.pipe(typescript('./tsconfig.json')).js
 		.pipe(gulp.dest('./tempJs'));
 
     browserify("./tempJs/app.js").bundle()

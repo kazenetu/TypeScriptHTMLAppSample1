@@ -16,13 +16,13 @@ var Greeter = (function () {
     };
     return Greeter;
 })();
-exports.Greeter = Greeter;
+exports.default = Greeter;
 
 },{}],2:[function(require,module,exports){
-var Greeter = require("./Greeter");
+var Greeter_1 = require('./Greeter');
 window.onload = function () {
     var el = document.getElementById('content');
-    var greeter = new Greeter.Greeter(el);
+    var greeter = new Greeter_1.default(el);
     greeter.start();
 };
 
